@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Tabs</title>
+</head>
+<body>
+    <ul>
+        <li data-tab-target=#home class="active tab">Home</li>
+        <li data-tab-target=#about class="tab">About</li>
+        <li data-tab-target=#contact class="tab">Contact</li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="home" data-tab-content class="active">
+            <h1>Home</h1>
+            <p>Welcome to the main page. Here, you can place important things about your company, such as what you offer, basic informations and other things.</p>
+        </div>
+        <div id="about" data-tab-content>
+            <h1>About</h1>
+            <p>Now it's time to get deeper about the informations related to your company so the client gets interested about what you're selling.</p>
+        </div>
+        <div id="contact" data-tab-content>
+            <h1>Contact</h1>
+            <p>Here is the place where you can put informations about how to contact you or the company. Phones, emails, social profiles are welcome. Depends on what you are going for.</p>
+        </div>
+    </div>
+</body>
+</html>
